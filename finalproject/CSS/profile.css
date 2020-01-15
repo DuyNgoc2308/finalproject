@@ -1,4 +1,4 @@
-input {
+.input {
 	text-indent: 15px;
 	height: 40px;
 	width: 200px;
@@ -12,30 +12,27 @@ input {
 	font-size: 15px;
 }
 
-.login-form {
-	/*width: auto;
-	height: auto;
-	padding: 10px 30px; */
+.cols-form {
 	background: transparent;
 	display: grid;
 	align-items: center;
 	justify-content: center;
-	grid-template-columns: auto;
+	grid-template-columns: auto auto;
 	color: #EC494F;
 	margin: 100px 100px;
 	font-weight: bold;
 }
 
-.login-form img {
+.cols-form img {
 	height: 150px;
 	width: 150px;
 	border-radius: 75px;
 }
 
-a {
+/*a {
 	color: black;
 	font-size: 14px;
-}
+}*/
 
 label {
 	margin-top: 15px;
@@ -51,22 +48,31 @@ button {
 	background: linear-gradient(to bottom, #ff5050 0%, #ff6699 100%);
 	;
 	font-weight: bold;
-	/*outline: none !important;*/
-	color: white;
-}
-.container button{
-	outline: none !important;
-}
-button:hover {
-	background: linear-gradient(to bottom, #ff5050 0%, #cc0066 100%);
+	outline: none;
+	/*color: white;*/
 }
 
+/*button:hover{
+	background: linear-gradient(to bottom, #ff5050 0%, #cc0066 100%);
+}*/
 body {
-	background-image: url("../images/simple.jpg");
-	display: flex;
+	/*background-image: url("images/simple.jpg");*/
+
+	color: #EC494F;
 	font-family: sans-serif;
-	justify-content: center;
+	grid-template-columns: auto;
 	align-items: center;
-	background-size: cover;
 	font-family: Comic Sans MS;
+}
+
+#profile img {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	border: 3px solid #cc0066;
+}
+
+#history img {
+	height: 250px;
+	width: 250px;
 }

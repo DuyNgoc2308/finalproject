@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS users;
+CREATE TABLE users(
+    id int AUTO_INCREMENT primary KEY,
+    fullname VARCHAR(100),
+    avt varchar(250),
+    usern varchar(20),
+    passw varchar(10),
+    gender varchar(10)
+    );
+DROP TABLE IF EXISTS posts;
+CREATE TABLE posts(
+    id int AUTO_INCREMENT primary key,
+    idAccount int not null,
+    img VARCHAR(250),
+    descrip varchar(250),
+    interact varchar(250),
+    cmt varchar(250)
+    );
+INSERT INTO users(fullname,avt,usern,passw,gender) VALUES ('Nguyen Duy Ngoc','../images/dog.jpg','saukiu2308','2308','Male'),('Le Minh Quoc','../images/man.png','quocle','1234','Male');
+INSERT INTO posts(idAccount,img,descrip) VALUES(1,'../images/landsc.jpg','A beautiful day'),(2,'../images/bgr.jpg','So nice, right? :)');

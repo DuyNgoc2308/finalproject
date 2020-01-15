@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+.grid{
+    display: grid;
+    grid-column: auto auto auto;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+input{
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 10px;
+    border:1px solid #C44479;
+    background: white;
+    margin: 10px 0px;
+    text-indent: 15px;
+}
+.button{
+    outline: none;
+    border: none;
+    background: #C44479;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+}
+body{
+    font-family: Comic Sans MS;
+}
+label{
+    font-size: 30px;
+    color: #E93F5C;
+}
+#margin{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}

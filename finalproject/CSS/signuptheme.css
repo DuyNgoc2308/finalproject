@@ -1,57 +1,79 @@
-		input{
-			text-indent: 15px;
-			height: 30px;
-			border: none;
-			background: transparent;
-			font-style: italic;
-			border-bottom: 1px solid lightgrey;
-			color: black;
-			outline: none;
-		}
-		.login-form{
-			/*width: auto;
-			height: auto;
-			padding: 10px 40px; */                                        
-			background: transparent;
-			display: grid;
-			align-items: center;
-			justify-content: center;
-			grid-template-columns: auto;
-			color: white;
-			margin: 100px 100px;
-		}
-		a{
-			color: lightblue;
-			font-size: 14px;
-		}
-		label{
-			margin-top: 15px;
-			margin-bottom: 15px;
-		}
-		button{
-			margin: 15px 15px;
-			height: 30px;
-			border:none;
-			border-radius: 10px;
-			background: lightblue;
-			font-weight: bold;
-			outline: none;
-		}
-		button:hover{
-			background: yellow;
-		}
-		body{
-			background-image: url("images/bgr.jpg");
-			display: flex;
-			font-family: sans-serif;
-			justify-content: center;
-			align-items: center;
-
-		}
-		span{
-			font-size: 12px;
-			display: flex;
-			align-items: center;
-			text-align: center;
-			margin-top: 10px;
-		}
+input{
+	text-indent: 15px;
+	height: 30px;
+	border: none;
+	background: transparent;
+	font-style: italic;
+	border-bottom: 1px solid lightgrey;
+	color: black;
+	outline: none;
+	font-weight: bold;
+}
+.signup-form{
+	/*width: auto;
+	height: auto;
+	padding: 10px 40px; */                                        
+	background: transparent;
+	/*display: grid;*/
+	align-items: center;
+	justify-content: center;
+	/*grid-template-columns: auto;*/
+	color: #EC494F;;
+	margin: 100px 100px;
+	top:0px;
+	text-align: center;
+}
+.signup-form img{
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
+}
+.flex1{
+	display: flex;
+	width: 400px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 10px;
+}
+.flex2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*padding: 10px 30px;*/
+}
+a{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+label{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+button{
+	margin: 15px 15px;
+	height: 30px;
+	border:none;
+	border-radius: 10px;
+	background: linear-gradient(to bottom, #ff5050 0%, #ff6699 100%);;
+	font-weight: bold;
+	outline: none !important;
+}
+button:hover{
+	background: linear-gradient(to bottom, #ff5050 0%, #cc0066 100%);
+}
+body{
+	background-image: url("../images/simple.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Comic Sans MS;
+	color: black;
+}
+span{
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+}
